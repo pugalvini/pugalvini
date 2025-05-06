@@ -1,16 +1,35 @@
-## Hi there 👋
+# 👋 Hi, I'm Vinitha!
 
-<!--
-**pugalvini/pugalvini** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a passionate **Full Stack Developer** with 7+ years of experience in building scalable applications using **Python, Java, React**, and **Google Cloud Platform**. I love solving real-world problems through clean and efficient code.
 
-Here are some ideas to get you started:
+## 💼 What I Do
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 👨‍💻 Build scalable full-stack applications
+- ☁️ Work with cloud technologies (GCP, AWS)
+- 🔁 Automate CI/CD pipelines
+- 👩‍🏫 Mentor junior devs and interns
+- 📈 Drive technical decisions
+
+## 🧰 Tech Stack
+
+- **Languages:** Python, JavaScript, Java
+- **Frameworks:** Flask, React, Node.js, Express
+- **Cloud:** GCP
+- **Tools:** Docker, CircleCI, Postman, BigQuery
+- **Database:** MySQL, Postgresql
+
+
+## 📫 Connect With Me
+
+- [LinkedIn](https://www.linkedin.com/in/pukazhvinitha/)
+- [Email](mailto:pukazhvinitha@gmail.com)
+
+## ✨ Fun Fact About Me
+
+🌊 I find peace by the sea  
+🎮 I’m a fan of animation and games  
+🏛️ I love exploring places rich in myths and history 
+
+---
+
+> “Code is like humor. When you have to explain it, it’s bad.” – Cory House
