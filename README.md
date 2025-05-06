@@ -1,4 +1,5 @@
 # 👋 Hi, I'm Vinitha!
+<img src="https://github.com/pugalvini/pugalvini/blob/main/readme_banner.png?raw=true" alt="Vinitha's GitHub Banner" width="100%" />
 
 I'm a passionate **Full Stack Developer** with 7+ years of experience in building scalable applications using **Python, Java, React**, and **Google Cloud Platform**. I love solving real-world problems through clean and efficient code.
 
