@@ -27,7 +27,7 @@ jobs:
           from datetime import date
 
           # ✏️ Set your first day of professional work
-          CAREER_START_DATE = date(2018, 6, 1)
+          CAREER_START_DATE = date(2019, 1, 1)
 
           today = date.today()
           years = (today - CAREER_START_DATE).days // 365
@@ -35,9 +35,10 @@ jobs:
           with open("README.md", "r") as f:
               content = f.read()
 
+          # Updates the years in the typing SVG URL: e.g. "7%2B+Years" → "8%2B+Years"
           updated = re.sub(
-              r"<!-- EXPERIENCE -->\d+<!-- /EXPERIENCE -->",
-              f"<!-- EXPERIENCE -->{years}<!-- /EXPERIENCE -->",
+              r"\d+%2B\+Years",
+              f"{years}%2B+Years",
               content
           )
 
