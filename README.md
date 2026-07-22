@@ -30,7 +30,7 @@
 
 ```python
 class Vinitha:
-    role       = "Full Stack Developer  |  <!-- EXPERIENCE -->8<!-- /EXPERIENCE -->+ years"
+    role       = "Full Stack Developer"
     stack      = ["Python", "Java", "JavaScript", "Flask", "React", "Node.js"]
     cloud      = ["GCP", "AWS"]
     tools      = ["Docker", "CircleCI", "BigQuery", "Postman", "PostgreSQL"]
