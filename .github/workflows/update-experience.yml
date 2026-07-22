@@ -1,0 +1,53 @@
+name: Update Years of Experience
+
+on:
+  schedule:
+    # Runs at midnight UTC on January 1st every year
+    - cron: "0 0 1 1 *"
+  push:
+    branches: [main]
+  workflow_dispatch: # allows manual trigger from GitHub UI
+
+jobs:
+  update-experience:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Calculate years of experience
+        id: calc
+        run: |
+          python3 - <<'EOF'
+          import re
+          from datetime import date
+
+          # ✏️ Set your first day of professional work
+          CAREER_START_DATE = date(2019, 1, 1)
+
+          today = date.today()
+          years = (today - CAREER_START_DATE).days // 365
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          updated = re.sub(
+              r"<!-- EXPERIENCE -->\d+<!-- /EXPERIENCE -->",
+              f"<!-- EXPERIENCE -->{years}<!-- /EXPERIENCE -->",
+              content
+          )
+
+          with open("README.md", "w") as f:
+              f.write(updated)
+
+          print(f"Updated experience to {years} years")
+          EOF
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: auto-update years of experience"
+          git push
