@@ -93,7 +93,7 @@ class Vinitha:
 ## 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=pugalvini&theme=tokyonight&hide_border=true&background=0D1117&stroke=6C63FF&ring=6C63FF&fire=00D4FF&currStreakLabel=00D4FF&sideNums=c9d1d9&dates=8b949e" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=pugalvini&theme=tokyonight&hide_border=true&background=0D1117&stroke=6C63FF&ring=6C63FF&fire=00D4FF&currStreakLabel=00D4FF&sideNums=c9d1d9&dates=8b949e&v=1" alt="GitHub Streak" />
 </p>
 
 ---
